@@ -1,0 +1,213 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  height: 80px;
+  padding-left: 200px;
+  padding-right: 200px;
+  box-shadow: 0px 0px 10px rgb(121, 111, 111);
+  align-items: center;
+  user-select: none;
+  display: flex;
+}
+
+#nav-img {
+  height: 100px;
+}
+
+.home-body {
+  padding-left: 225px;
+  padding-right: 200px;
+  padding-top: 50px;
+}
+
+#createListing {
+  height: 50px;
+  width: 160px;
+  color: white;
+  background-color: #3dce83;
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#listingContainer {
+  margin: 20px;
+  display: flex;
+  border: 2px solid rgb(231, 224, 224);
+  border-radius: 10px;
+}
+
+#listingImg {
+  min-width: 400px;
+  max-width: 400px;
+  min-height: 250px;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#textContainer {
+  width: 100%;
+  position: relative;
+}
+
+#listingName {
+  height: 50px;
+  margin: 20px;
+  font-size: 30px;
+}
+
+#listingDesc {
+  margin: 20px;
+}
+
+#updateListing {
+  position: absolute;
+  right: 190px;
+  bottom: 20px;
+  height: 45px;
+  width: 150px;
+  color: white;
+  background-color: #449df0;
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#deleteListing {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  height: 45px;
+  width: 150px;
+  color: white;
+  background-color: #eb5757;
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#createTitle {
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#nameContainer {
+  margin-top: 40px;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+}
+
+#nameSubtitle {
+  width: 125px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 50px;
+}
+
+#nameInput {
+  width: 700px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #9aa09d;
+  padding-left: 5px;
+}
+
+#aboutContainer {
+  margin-top: 40px;
+  margin-left: 40px;
+  display: flex;
+}
+
+#aboutSubtitle {
+  width: 125px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 50px;
+}
+
+#descInput {
+  width: 700px;
+  height: 100px;
+  resize: none;
+  border-radius: 5px;
+  border: 1px solid #9aa09d;
+  padding: 5px;
+}
+
+#imageContainer {
+  margin-top: 40px;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+}
+
+#imageSubtitle {
+  width: 125px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 50px;
+}
+
+#chooseFileContainer {
+  display: flex;
+  width: 700px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #9aa09d;
+  align-items: center;
+}
+
+#myChooseFileButton {
+  width: 100px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #9aa09d;
+  margin-right: 10px;
+}
+
+#submitListing {
+  margin-top: 40px;
+  margin-left: 40px;
+  height: 40px;
+  width: 120px;
+  color: white;
+  background-color: #449df0;
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#curImageContainer {
+  margin-top: 40px;
+  margin-left: 40px;
+  display: flex;
+}
+
+#curImageSubtitle {
+  width: 125px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 50px;
+}
